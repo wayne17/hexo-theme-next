@@ -15,9 +15,9 @@
         appId: '{{ theme.valine.appid }}',
         appKey: '{{ theme.valine.appkey }}',
         placeholder: '{{ theme.valine.placeholder }}',
-        avatar:'{{ theme.valine.avatar }}',
-        guest_info:guest,
-        pageSize:'{{ theme.valine.pageSize }}' || 10,
+        avatar: '{{ theme.valine.avatar }}',
+        guest_info: guest,
+        pageSize: '{{ theme.valine.pageSize }}' || 10,
     });
   </script>
 {% endif %}
